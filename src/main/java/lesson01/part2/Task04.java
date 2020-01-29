@@ -24,6 +24,12 @@ public class Task04 {
 
     public static void main(String[] args) {
         //напишите тут ваш код
+        int a=12;
+        int b= 16;
+        int sum=a+b;
+        int p=a*b;
+        System.out.println(sum);
+        System.out.println(p);
     }
 
 }

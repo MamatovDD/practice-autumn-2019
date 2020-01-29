@@ -14,10 +14,15 @@ package lesson02.part01;
  * 5.	Выведенный текст должен содержать введенное имя name3.
  * 6.	Выведенный тест должен полностью соответствовать заданию.
  */
-
+import java.util.Scanner;
 public class Task20 {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+        Scanner scan = new Scanner(System.in);
+        String name1 = scan.next();
+        String name2 = scan.next();
+        String name3 = scan.next();
+        System.out.printf(name1 + " " + name2 + " " + name3 + " = Чистая любовь, да-да!");
 
     }
 }
